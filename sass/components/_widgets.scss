@@ -1,0 +1,15 @@
+.widget {
+	margin: 0 0 1.5em;
+     font-size: 0.8rem;
+    h2 {
+        font-size: 0.9rem;
+        color: #000;
+        font-weight: 500;
+       
+    }
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}

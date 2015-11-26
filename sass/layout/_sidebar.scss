@@ -1,0 +1,23 @@
+//.site-content .widget-area-rogjt {
+//	float: right;
+//	overflow: hidden;
+//	width: $size__site-sidebar;
+//      font-family: $font__alt;
+//     @include breakpoint(upphablet) {
+//		 width: 100%;
+//    float: none;
+//    display: block;
+//       
+//	}
+//}
+//
+//.site-footer {
+//	clear: both;
+//	width: $size__site-main;
+//}
+
+.sidebar {
+    @include breakpoint(50em){
+    @include span (3 at 1 of 12);
+        }
+}
